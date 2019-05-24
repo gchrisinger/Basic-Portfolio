@@ -12,9 +12,8 @@
 
 }
 .right_three {
-    background-color:white;
     color: grey;
-    text-align: right;
+    float: right;
     height: 200px;
     font-size: 50px;
 }

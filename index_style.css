@@ -3,7 +3,7 @@
     border: 5px;
     border-bottom-style: solid;
     border-bottom-color: black;
-    height: 550px;
+    height: 150px;
     margin: auto;
 }
 .name {background:teal;
@@ -15,10 +15,12 @@
 
 }
 .right_three {
-    background-color:palegreen;
+    background-color:white
     float: right;
     color: grey;
     text-align: right;
     height: 200px;
     font-size: 50px;
+    float: right;
+
 }
