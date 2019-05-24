@@ -12,9 +12,11 @@
     width: 300px;
     margin: 150px;
     height: 100px;
+    float: left
 
 }
 .right_three {
-    background-color: antiquewhite
-    color: black;
+    background-color: antiquewhite;
+    color: teal;
+    float: left;
 }
