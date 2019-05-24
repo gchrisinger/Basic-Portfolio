@@ -1,0 +1,19 @@
+.my-header {border: 5px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    height: 100px;
+}
+.name {background:teal;
+    color:white;
+    text-align: inherit
+width: 300px;
+margin: 150px;
+height: 300px
+}
+.right_three {
+    background-color:white;
+    color: grey;
+    text-align: right;
+    height: 200px;
+    font-size: 50px
+}
