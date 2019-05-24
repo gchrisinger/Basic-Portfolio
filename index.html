@@ -8,10 +8,9 @@
   <title>Awe-somtivity</title>
   <link rel="stylesheet" href="index_style.css">
 </head>
-
+<header class='my-header'>
 <body>
 
-  <header class='my-header'>
 
     <h1 class='name'>Georgia S. Chrisinger</h1>
     <div class="right_three">
@@ -27,7 +26,8 @@
   <!-- Section 1: Bio -->
   <section>
     <!-- h2: Tier-2 Headline (Not as important as the h1 header, but more than one allowed). -->
-    <header>About:</header>
+    <header></header>
+    <header class='my-header'></header>
 
     <!-- Image with link -->
     <img src="https://pbs.twimg.com/profile_images/3080475819/99cb828c78749fcd5d36c2162ced61ed_400x400.jpeg"
@@ -49,7 +49,7 @@
 </html>
 <!-- 
 
-    <!-- Section 2: Contact Info -->
+    Section 2: Contact Info
 <section>
 
   <!-- h2: Tier-2 Headline -->
@@ -62,10 +62,30 @@
         href="#">https://github.com/gchrisinger/bioPage</a>https://github.com/gchrisinger/bioPage</li>
     <li><strong>Portfolio:</strong> <a href="#">coming soon</a>coming soon</li>
   </ul>
-
-  <!DOCTYPE html>
-  <html lang="en-us">
+>
 
 
 
-  -->
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Layout with floats</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="float-style.css">
+</head>
+
+<body>
+  <div class="container">
+    <header>Header</header>
+    <div class="clearfix">
+      <aside>Aside</aside>
+      <main>Main</main>
+    </div>
+    <footer>Footer</footer>
+  </div>
+
+</body>
+
+</html>

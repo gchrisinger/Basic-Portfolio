@@ -1,18 +1,22 @@
-.my-header {border: 5px;
+.my-header {
+    background-color: grey;
+    border: 5px;
     border-bottom-style: solid;
     border-bottom-color: black;
-    height: 50px;
+    height: 550px;
+    margin: auto;
 }
 .name {background:teal;
     color:white;
-    text-align: top right;
+    text-align: right;
     width: 300px;
     margin: 150px;
     height: 100px;
 
 }
 .right_three {
-    background-color:white;
+    background-color:palegreen;
+    float: right;
     color: grey;
     text-align: right;
     height: 200px;
